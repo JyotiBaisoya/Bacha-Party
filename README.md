@@ -9,6 +9,7 @@ Bacha Party E-commerce Platform
 - [Demo](#demo)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Technologies Used](#technologies-used)
 - [API Documentation](#api-documentation)
 - [Contributing](#contributing)
   
@@ -62,19 +63,24 @@ yarn start
 
 Access the Bacha Party platform at `http://localhost:3000` in your web browser.
 
+## Technologies Used
+
+- Frontend: React.js
+- Backend: Node.js
+- Database: MongoDB
+
 ## API Documentation
 
-# Routes :-
+### Routes:-
 
-- ### Users Routes
+- **Users Routes**
 
 | METHOD | ENDPOINT       | WHAT IT DOES                                                                          |
 | ------ | -------------- | ------------------------------------------------------------------------------------- |
 | POST   | /user/signup | -> Register New User (Requires user details in req.body)                              |
 | POST   | /user/login    | -> Login existing user (Requires email and passwords, returns token if login success) |
 
-
-- ### Product Routes
+- **Product Routes**
 
 | METHOD | ENDPOINT            | WHAT IT DOES                                                                                   |
 | ------ | ------------------- | ---------------------------------------------------------------------------------------------- |
@@ -82,7 +88,7 @@ Access the Bacha Party platform at `http://localhost:3000` in your web browser.
 | GET    | api/products            | -> getting all products                                                                        |
 | GET    | api/product/:id | -> getting products by id                                                                      |
 
-- ### Cart Routes
+- **Cart Routes**
 
 | METHOD | ENDPOINT                         | WHAT IT DOES                                             |
 | ------ | -------------------------------- | -------------------------------------------------------- |
@@ -90,7 +96,7 @@ Access the Bacha Party platform at `http://localhost:3000` in your web browser.
 | POST   | /api/cart/add/:productID             | -> adding item to user's cart                            |
 | DELETE | /api/cart/remove/:productId          | -> deleting item from cart                               |
 
-- ### Order Routes
+- **Order Routes**
 
 | METHOD | ENDPOINT          | WHAT IT DOES                                                    |
 | ------ | ----------------- | --------------------------------------------------------------- |
@@ -99,8 +105,9 @@ Access the Bacha Party platform at `http://localhost:3000` in your web browser.
 | GET    | /api/order/:orderId   | -> getting details of a single order if the user is logged in                       |
 | PATCH  | /api/order/history    | -> getting history of all the orders        |
 
-# Deployed api
- (https://nanhe-munhe-2.onrender.com/)
+### Deployed API
+
+The backend API is deployed at [https://nanhe-munhe-2.onrender.com/](https://nanhe-munhe-2.onrender.com/).
 
 ## Contributing
 
@@ -113,6 +120,6 @@ We welcome contributions from the community to help improve Bacha Party. Here's 
 
 Please adhere to our code of conduct and coding guidelines when contributing.
 
-
 ## Acknowledgments
+
 Thank you for choosing Bacha Party for your children's shopping needs. We hope you have a delightful shopping experience with us!
