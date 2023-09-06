@@ -11,8 +11,7 @@ Bacha Party E-commerce Platform
 - [Usage](#usage)
 - [API Documentation](#api-documentation)
 - [Contributing](#contributing)
-- [License](#license)
-
+  
 ## Introduction
 
 Bacha Party is an e-commerce platform designed to provide a convenient and enjoyable shopping experience for parents looking to purchase children's clothing and accessories. Our platform offers a wide range of products for boys and girls of various age groups.
